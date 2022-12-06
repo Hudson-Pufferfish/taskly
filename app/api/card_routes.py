@@ -63,18 +63,7 @@ def update_card(id):
         return {"errors":
         {"title": "Please provide a title"}
         }, 400
-# @card_routes.route('/<int:id>', methods=['PUT'])
-# @login_required
-# def update_card(id):
-#     card = Card.query.get(id)
-    
-#     card.order = request.json['order']
-#     card.title = request.json['title']
-#     card.description = request.json['description']
 
-#     db.session.commit()
-
-#     return card.to_dict()
 
 # DELETE A CARD
 @card_routes.route('/<int:id>', methods=['DELETE'])
