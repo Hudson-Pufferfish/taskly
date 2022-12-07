@@ -91,12 +91,12 @@ export default function SplashPage() {
         </div>
         <div id="about" className="flex-row">
           <div className="about-img">
-            <a href="https://github.com/bandrewi" target="_blank">
+            <a href="https://github.com/Hudson-Pufferfish" target="_blank" rel="noopener noreferrer">
               <img src="GitHub.png" alt="" />
             </a>
           </div>
           <div>
-            <a href="https://www.linkedin.com/in/andrew-bui-26b718237/" target="_blank">
+            <a href="https://www.linkedin.com/in/son-hudson-nguyen711/" target="_blank" rel="noopener noreferrer">
               <img id="linkedIn-logo" src="https://i.imgur.com/hLlhx14.png" alt="" />
             </a>
           </div>
