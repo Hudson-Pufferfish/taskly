@@ -1,0 +1,171 @@
+/* #board-background {
+    position: absolute;
+    height: 100%;
+    width: 100%;
+    background-color: black;
+    z-index: -1;
+} */
+
+#board-dash {
+    position: sticky;
+    padding-top: 3px;
+    padding-bottom: 4px;
+    left: 0px;
+    width: 100vw;
+    align-items: center;
+    background-color: #026ba7b2;
+    z-index: 1;
+}
+
+#spacing {
+    padding: 0px 10px 0px 5px;
+}
+
+#board-title {
+    padding: 0px 10px;
+}
+
+#board-title:hover {
+    cursor: pointer;
+    background-color: #026ba73a;
+}
+
+#board-edit-input {
+    height: 30px;
+    display: none;
+    margin: 3px 0px 5px 0px;
+    font-size: 32px;
+    padding: 0px 0px 0px 4px;
+}
+
+#board-separator {
+    height: 20px;
+    margin: 3px 20px 0px;
+    border-right: 2px solid gray;
+}
+
+#board-delete-btn {
+    padding: 2px 4px;
+
+    outline: none;
+    cursor: pointer;
+    font-size: 14px;
+    padding: 0 12px;
+    line-height: 20px;
+    height: 30px;
+    max-height: 30px;
+    background: none;
+    font-weight: 700;
+    border: 0;
+    border-radius: 0;
+    color: white;
+}
+
+#board-delete-btn:hover {
+    color: red;
+}
+
+.board-title-errors {
+    font-size: 13px;
+    color: red;
+    margin-left: 30px;
+    display: none;
+}
+
+#list-ul {
+    /* flex-wrap: nowrap; */
+    margin: 0px 0px 8px;
+    padding: 0px 0px 8px 16px;
+    /* the lists are placed at the top so dont take whole height of parent container */
+    align-items: flex-start;
+    /* max-height: 820px; */
+}
+
+.list {
+    border: 1px solid black;
+}
+
+.list-li {
+    width: 300px;
+    margin: 10px;
+    background-color: #EBECF0;
+    border-radius: 5px;
+}
+
+/* ADD LIST */
+#add-list-container {
+    background-color: white;
+}
+
+#add-list-details {
+    /* border: red solid 1px; */
+    background-color: #EBECF0;
+}
+
+#add-list-text-container {
+    /* background-color: #ffffff3d; */
+    /* background-color: #00000014; */
+    background-color: #00000010;
+    border-radius: 5px;
+    padding: 6px 8px;
+    margin: 0px 0px 8px;
+    /* padding: 0px 0px 8px 16px; */
+}
+
+#add-list-text-container:hover {
+    cursor: pointer;
+    background-color: #091e421e;
+}
+
+
+#add-list-text {
+    color: black;
+}
+
+/* ADD LIST FORM */
+#list-input-container {
+    padding-top: 6px;
+    margin: 0px 2px;
+    text-align: center;
+    border-radius: 5px;
+}
+
+#add-list-input {
+    outline-color: #026AA7;
+    padding: 3px 18px 3px 3px;
+    /* margin-bottom: 7px; */
+    width: 255px;
+    height: 20px;
+}
+
+.list-add-errors {
+    margin: 0px 10px 5px;
+    font-size: 12px;
+    color: red;
+}
+
+#list-btn-container {
+    margin-left: 9px;
+    /* border: red solid 1px; */
+}
+
+#add-list-btn {
+    background: #0079bf;
+    width: 74px;
+    height: 25px;
+    padding: 4px 8px;
+    color: white;
+    border: transparent;
+    border-radius: 4px;
+    margin-bottom: 10px;
+}
+
+#add-list-btn:hover {
+    cursor: pointer;
+    background-color: #026aa7;
+}
+
+#add-list-btn:disabled {
+    background-color: #026ba77a;
+    cursor: not-allowed;
+}
