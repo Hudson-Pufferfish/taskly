@@ -91,7 +91,7 @@ export default function SplashPage() {
           </div>
           <div>
             <a href="https://www.linkedin.com/in/son-hudson-nguyen711/" target="_blank" rel="noopener noreferrer">
-              <img id="linkedIn-logo" src="https://i.imgur.com/hLlhx14.png" alt="" />
+              <img id="linkedIn-logo" src="/LinkedIn2.png" alt="" />
             </a>
           </div>
         </div>
