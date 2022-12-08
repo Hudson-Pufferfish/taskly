@@ -36,7 +36,7 @@ const NavBar = () => {
           <ul id="user-left" className="flex-row">
             <li>
               <NavLink id="user-logo" to="/" exact={true} activeClassName="active">
-                <img id="user-logo" src="https://i.imgur.com/O0SRwmY.png" alt="Taskly" />
+                <img id="user-logo" src="/taskly--white.png" alt="Taskly" />
               </NavLink>
             </li>
             <li id="nav-board-container">

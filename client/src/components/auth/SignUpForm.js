@@ -35,6 +35,7 @@ const SignUpForm = () => {
   useEffect(() => {
     if (cookieEmail && redirected) {
       setEmail(cookieEmail);
+      console.log(cookieEmail === "");
       document.cookie = "email=";
     }
     setRedirected(false);
