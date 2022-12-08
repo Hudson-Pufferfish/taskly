@@ -71,14 +71,17 @@ export default function SplashPage() {
       <footer className="flex-row">
         {/* <span>Connect with the developer :</span> */}
         <div id="technologies" className="flex-row">
-          <img src="/js.png" alt="javascript" />
-          <img src="/html.png" alt="html5" />
-          <img src="/css3.png" alt="css3" />
-          <img src="/react.png" alt="react" />
-          <img src="redux.png" alt="redux" />
-          <img src="/flask.png" alt="flask" />
-          <img src="/alembic.png" alt="alembic" />
-          <img id="last-tech" src="/postgresql.png" alt="" />
+          <img src="/tech-images/js.png" alt="javascript" />
+          <img src="/tech-images/html.png" alt="html5" />
+          <img src="/tech-images/css3.png" alt="css3" />
+          <img src="/tech-images/react.png" alt="react" />
+          <img src="/tech-images/redux.png" alt="redux" />
+          <img src="/tech-images/tailwind.png" alt="tailwindcss" />
+          <img src="/tech-images/styled-components.png" alt="styled-components" />
+
+          <img src="/tech-images/flask.png" alt="flask" />
+          <img src="/tech-images/alembic.png" alt="alembic" />
+          <img id="last-tech" src="/tech-images/postgresql.png" alt="" />
         </div>
         <div id="about" className="flex-row">
           <div className="about-img">
