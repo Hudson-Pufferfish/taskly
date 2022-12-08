@@ -13,6 +13,7 @@ import { fetchCards } from "./store/card";
 import SplashPage from "./components/SplashPage";
 import HomePage from "./components/HomePage";
 import SingleBoard from "./components/SingleBoard";
+import { GlobalStyles } from "./GlobalStyles";
 
 function App() {
   const [loaded, setLoaded] = useState(false);
@@ -53,6 +54,7 @@ function App() {
   };
   return (
     <BrowserRouter>
+      <GlobalStyles></GlobalStyles>
       <Switch>
         <Route path="/login" exact={true}>
           <LoginForm />

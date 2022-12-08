@@ -3,7 +3,19 @@ import { useSelector, useDispatch } from "react-redux";
 import { Link, Redirect } from "react-router-dom";
 import { signUp } from "../../store/session";
 
+import { FormImg, LogoContainer, LogoImg } from "./BaseFormStyles";
 import "./signup.css";
+import styled from "styled-components";
+
+const RequiredField = styled.label`
+  &.required {
+    margin-bottom: 0.3rem;
+    &::after {
+      content: "*";
+      color: red;
+    }
+  }
+`;
 
 const SignUpForm = () => {
   const [errors, setErrors] = useState([]);
@@ -27,6 +39,7 @@ const SignUpForm = () => {
     }
     setRedirected(false);
   }, [cookieEmail, redirected]);
+
   // --------------------------------------------
 
   const onSignUp = async (e) => {
@@ -75,11 +88,11 @@ const SignUpForm = () => {
 
   return (
     <>
-      <div id="login-taskly-logo-container">
+      <LogoContainer id="login-taskly-logo-container">
         <Link to="/">
-          <img id="login-taskly-logo" src="/taskly.png" alt="Taskly" />
+          <LogoImg id="login-taskly-logo" src="/taskly.png" alt="Taskly" />
         </Link>
-      </div>
+      </LogoContainer>
       <div id="signup-container">
         <form id="signup-form" onSubmit={onSignUp}>
           <div>
@@ -91,7 +104,7 @@ const SignUpForm = () => {
           </div>
           <h1 id="signup-header">Sign up for your account</h1>
           <div className="flex-column">
-            <label className="required">First Name</label>
+            <RequiredField className="required">First Name</RequiredField>
             <input
               className="signup-input"
               type="text"
@@ -102,19 +115,19 @@ const SignUpForm = () => {
             ></input>
           </div>
           <div className="flex-column">
-            <label className="required">Last Name</label>
+            <RequiredField className="required">Last Name</RequiredField>
             <input className="signup-input" type="text" name="lastname" placeholder="Last Name" onChange={updateLastName} value={lastName}></input>
           </div>
           <div className="flex-column">
-            <label className="required">Email</label>
+            <RequiredField className="required">Email</RequiredField>
             <input className="signup-input" type="text" name="email" placeholder="Email" onChange={updateEmail} value={email}></input>
           </div>
           <div className="flex-column">
-            <label className="required">Password</label>
+            <RequiredField className="required">Password</RequiredField>
             <input className="signup-input" type="password" name="password" placeholder="Password" onChange={updatePassword} value={password}></input>
           </div>
           <div className="flex-column">
-            <label className="required">Confirm Password</label>
+            <RequiredField className="required">Confirm Password</RequiredField>
             <input
               className="signup-input"
               type="password"
@@ -133,14 +146,14 @@ const SignUpForm = () => {
           </Link>
         </form>
       </div>
-      <div id="login-img-container">
-        <div id="login-img-1-container">
+      <FormImg id="login-img-container">
+        <FormImg id="login-img-1-container">
           <img src="https://i.imgur.com/AA8OHXu.png" alt="" />
-        </div>
-        <div id="login-img-2-container">
+        </FormImg>
+        <FormImg id="login-img-2-container">
           <img src="https://i.imgur.com/jK6fFIJ.png" alt="" />
-        </div>
-      </div>
+        </FormImg>
+      </FormImg>
     </>
   );
 };
