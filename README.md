@@ -34,7 +34,7 @@
    - `flask db upgrade`
    - `flask seed all`
    - `flask run`
-6. To run the React App in development, checkout the [README](./react-app/README.md) inside the `react-app` directory.
+6. To run the React App in development, checkout the [README](./client/README.md) inside the `client` directory.
 
 ## Features
 
