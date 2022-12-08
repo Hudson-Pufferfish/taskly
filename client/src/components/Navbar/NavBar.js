@@ -59,7 +59,7 @@ const NavBar = () => {
           <ul id="nonuser-left">
             <li>
               <NavLink to="/">
-                <img id="nonuser-logo" src="https://i.imgur.com/yaeqUuy.png" alt="Taskly" />
+                <img id="nonuser-logo" src="/taskly.png" alt="Taskly" />
               </NavLink>
             </li>
           </ul>
