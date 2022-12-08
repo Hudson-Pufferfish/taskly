@@ -77,7 +77,7 @@ const SignUpForm = () => {
     <>
       <div id="login-taskly-logo-container">
         <Link to="/">
-          <img id="login-taskly-logo" src="https://i.imgur.com/yaeqUuy.png" alt="Taskly" />
+          <img id="login-taskly-logo" src="/taskly.png" alt="Taskly" />
         </Link>
       </div>
       <div id="signup-container">
