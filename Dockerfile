@@ -16,7 +16,7 @@ WORKDIR /var/www
 COPY . .
 # Copy the built react app (it's built for us) from the
 # /client/build/ directory into your flasks app/static directory
-COPY /client/build/* app/static/
+# COPY /client/build/* app/static/
 # Run the next two python install commands with PIP
 # install -r requirements.txt
 # install psycopg2
