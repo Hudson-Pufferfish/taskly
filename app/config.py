@@ -9,5 +9,5 @@ class Config:
     # url in the hidden config vars to start with postgres.
     # so the connection uri must be updated here
     SQLALCHEMY_DATABASE_URI = os.environ.get(
-        'DATABASE_URL').replace('postgres://', 'postgresql://')
+        'DATABASE_URL', 'postgresql://hudson:Dell811Hudson@localhost/trello_test3').replace('postgres://', 'postgresql://')
     SQLALCHEMY_ECHO = True
