@@ -48,4 +48,8 @@ Logged in users can perform the following action:
 
 ![Database Schema](https://user-images.githubusercontent.com/96578906/206539385-11a8c243-83a9-4d0c-93cb-e510d8393f61.png)
 
-## Link to Wiki docs
+## Demo
+<br>
+<img src="https://user-images.githubusercontent.com/96578906/229305612-ada23fcd-e336-4c57-a5cd-b2b5dfc36108.png" width="90%">
+<img src="https://user-images.githubusercontent.com/96578906/229305781-e9dfe955-9089-4c9d-9a8c-ece3b945dde7.png" width="90%">
+<img src="https://user-images.githubusercontent.com/96578906/229305861-e7defa1e-d3e5-4c36-a453-56de3ce81b67.png" width="90%">
